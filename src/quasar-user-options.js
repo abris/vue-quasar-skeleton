@@ -1,4 +1,3 @@
-
 import './styles/quasar.scss'
 import lang from 'quasar/lang/uk.js'
 import '@quasar/extras/material-icons/material-icons.css'
@@ -8,5 +7,5 @@ export default {
   config: {},
   plugins: {
   },
-  lang: lang
+  lang
 }
