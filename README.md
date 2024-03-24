@@ -1,24 +1,19 @@
-# my-vue-app
+# VueJS + Routes + Quasar + Docker compose + Lint - SKELETON
 
-## Project setup
-```
-yarn install
-```
+Features:
+- VueJS
+- Quasar
+- Docker compose
+- Vue Router
+- Auto fix lint errors
+- Port to run defined in .env file
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
+## Run project
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
+docker compose up --build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
