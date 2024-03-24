@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  vuejs:
+    build: .
+    ports:
+      - "${APP_PORT}:${APP_PORT}" # Проброс порту 5173 з контейнера на локальну машину
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
+    command: npm run serve -- --port ${APP_PORT}
