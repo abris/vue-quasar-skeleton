@@ -5,7 +5,7 @@ services:
     ports:
       - "${APP_PORT}:${APP_PORT}" # Проброс порту 5173 з контейнера на локальну машину
     volumes:
-      - .:/app
+      - .:/app:cached
     stdin_open: true
     tty: true
     command: /bin/sh -c "npm install && npm run serve -- --port ${APP_PORT}"
